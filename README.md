@@ -4,10 +4,10 @@
 ![Status-Definition](https://img.shields.io/badge/Status-Definition-purple.svg)
 ![Maintained-Yes](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)
 <a href="https://github.com/BorjaG90/clutch-time-manager-client" alt="Github Repository Link">
-  <img alt="github repo" src="https://img.shields.io/badge/github-repo-black?logo=github"/>
+  <img alt="github repo" src="https://img.shields.io/badge/github-black?logo=github"/>
 </a>
 <a href="https://vuejs.org/" alt="Documentation Link">
-  <img alt="Documentation Link" src="https://img.shields.io/badge/Made_with-VueJS-aquamarine"/>
+  <img alt="Documentation Link" src="https://img.shields.io/badge/Made_with-VueJS-42b983"/>
 </a>
 
 Frontend side for the ClutchTime Manager app

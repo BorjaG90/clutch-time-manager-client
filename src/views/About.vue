@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>ClutchTime Manager</h1>
+    <h2>A basketball manager game like no other</h2>
   </div>
 </template>

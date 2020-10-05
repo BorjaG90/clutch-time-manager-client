@@ -19,6 +19,9 @@ Frontend side for the ClutchTime Manager app
 ## Built with
 ### Technologies
 <a href="https://vuejs.org/"><img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/vueJS.png" width=50 alt="VueJS"></a>
+<a href="https://www.javascript.com/"><img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/javascript.jpeg" width=50 alt="JavaScript"></a>
+<a href="https://nodejs.org/es/"><img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/nodejs.png" width=50 alt="NodeJS"></a>
+
 
 ### Platforms
 <a href="https://code.visualstudio.com/"><img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/vscode.png" width=50 alt="VSCode"></a>

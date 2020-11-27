@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState } from "react";
+import "./App.css";
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+
+// views
+import Landing from "./views/Landing";
+import Register from "./views/Register";
+import Login from "./views/Login";
 
 function App() {
+
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Router>
+        <div className="container">
+          <Switch>
+            <Route exact path="/login" 
+              render={props => <Login {...props} />} />
+            <Route exact path="/register"
+              render={props => <Register {...props} />} />
+            <Route exact path="/landing" 
+              render={props => <Landing {...props} />} />
+          </Switch>
+        </div>
+      </Router>
+    </Fragment>
   );
 }
 

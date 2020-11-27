@@ -6,8 +6,8 @@
 <a href="https://github.com/BorjaG90/clutch-time-manager-client" alt="Github Repository Link">
   <img alt="github repo" src="https://img.shields.io/badge/github-repo-black?logo=github"/>
 </a>
-<a href="https://vuejs.org/" alt="Documentation Link">
-  <img alt="Documentation Link" src="https://img.shields.io/badge/Made_with-VueJS-aquamarine"/>
+<a href="https://es.reactjs.org/" alt="Documentation Link">
+  <img alt="Documentation Link" src="https://img.shields.io/badge/Made_with-React-61dafb"/>
 </a>
 
 Frontend side for the ClutchTime Manager app
@@ -18,7 +18,7 @@ Frontend side for the ClutchTime Manager app
 
 ## Built with
 ### Technologies
-<a href="https://vuejs.org/"><img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/vueJS.png" width=50 alt="VueJS"></a>
+<a href="https://es.reactjs.org/"><img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/reactJs.png" width=50 alt="ReactJS"></a>
 
 ### Platforms
 <a href="https://code.visualstudio.com/"><img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/vscode.png" width=50 alt="VSCode"></a>

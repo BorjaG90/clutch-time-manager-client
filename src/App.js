@@ -14,20 +14,40 @@ import Register from "./views/Register";
 import Login from "./views/Login";
 
 function App() {
-
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  
+
   return (
     <Fragment>
       <Router>
         <div className="container">
           <Switch>
-            <Route exact path="/login" 
-              render={props => <Login {...props} />} />
-            <Route exact path="/register"
-              render={props => <Register {...props} />} />
-            <Route exact path="/landing" 
-              render={props => <Landing {...props} />} />
+            <Route
+              exact
+              path="/login"
+              render={(props) =>
+                !isAuthenticated ? (
+                  <Login {...props} />
+                ) : (
+                  <Redirect to="/landing" />
+                )
+              }
+            />
+            <Route
+              exact
+              path="/register"
+              render={(props) =>
+                !isAuthenticated ? (
+                  <Register {...props} />
+                ) : (
+                  <Redirect to="/landing" />
+                )
+              }
+            />
+            <Route
+              exact
+              path="/landing"
+              render={(props) => <Landing {...props} />}
+            />
           </Switch>
         </div>
       </Router>
